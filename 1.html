@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./2.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="arriba">
+            <h1 class="title">Dojonary</h1>
+            <input type="text" name="buscar" placeholder="buscar" class="buscar">
+            <button class="btn login" onclick="Entrar(this)">Iniciar session</button>
+        </div>
+        <div class="row">
+            <div class="flex-2">
+                <div class="box definition">
+                    <div class="left">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn like" onclick="message()">13 me gusta</button>
+                    </div>
+                    <p class="definition-text">Un practicante experto en el arte <a href="#">Japones</a> del <a href="#">ninjutsu</a></p>
+                </div>
+                <div class="box definition">
+                    <div class="left">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn like" onclick="message()">37 me gusta</button>
+                    </div>
+                    <p class="definition-text">Un<a href="#">progrmador</a> que analiza los  <a href="#">problemas con </a>un enfoque zen</p>
+                </div>
+            </div>
+                <div class="flex-1">
+                    <div class="box">
+                        <h2>Dojonary esta definido por TI</h2>
+                        <button class="btn add" onclick="hide(this)">Agregar definicion</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./3.js"></script>
+    </body>
+</html>
